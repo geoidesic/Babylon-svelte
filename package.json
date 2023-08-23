@@ -1,0 +1,49 @@
+{
+  "name": "babylonjs-sveltekit",
+  "version": "1.0.0",
+  "description": "Babylon.js example app built with Svelte",
+  "author": "Jason Sturges <jason@jsonsturges.com> (https://jasonsturges.com)",
+  "homepage": "https://jasonsturges.github.io//babylonjs-sveltekit/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonsturges/babylonjs-sveltekit"
+  },
+  "license": "ISC",
+  "keywords": [
+    "3d",
+    "babylonjs",
+    "svelte",
+    "sveltekit",
+    "graphics"
+  ],
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "babylonjs": "^6.17.0"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/kit": "next",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "prettier": "^3.0.2",
+    "prettier-plugin-svelte": "^3.0.3",
+    "svelte": "^4.2.0",
+    "svelte-check": "^3.5.0",
+    "svelte-preprocess": "^5.0.4",
+    "tslib": "^2.6.2",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9"
+  },
+  "type": "module"
+}
